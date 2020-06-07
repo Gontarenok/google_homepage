@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="blog-navigation">
             <ul>
                 <li><a href=#>Почта</a></li>
                 <li><a href=#>Картинки</a></li>
@@ -15,38 +15,48 @@
             </ul>
             </nav>
         </header>
-        <main>
-            <img src="images/googlelogo_color_272x92dp.png"> 
-            <form name="search" action="#" method="get">
-                <p>
-                    <img src="images/search.png">
-                    <input type="search" title="Поиск" value aria-label="Найти" autocomplete="on" maxlength="2048">
-                    <a href="#" title="Экранная клавиатура" alt="Экранная клавиатура">
+        <main class="content">
+            <p class="logo"><img src="images/googlelogo_color_272x92dp.png" alt="Google" height="92" width="272"></p>
+            
+                <div class="search">
+                    <div class="pop"><img src="images/search.png"></div>
+                    <div class="pop1">
+                        <form name="search" action="#" method="get">
+                        <input class="pop2" type="search" title="Поиск" value aria-label="Найти" autocomplete="on" maxlength="2048"></div>
+                        </form>
+                    <div class="pop3">
+                        <a href="#" title="Экранная клавиатура" alt="Экранная клавиатура">
                         <img src="images/tia.png">
-                    </a>
+                        </a>
+                    </div>
                     <a href="#" title="Голосовой поиск" alt="Голосовой поиск">
                         <img src="images/Vote.png">
                     </a>
-                </p>
-            <input type="submit" value="Поиск в Google">
-            <button type="submit">Мне повезет!</button>
-            </form>
-            <p>Сервисы Google доступны на разных языках: <select>
+                </div>
+                <center>
+                <input type="submit" value="Поиск в Google">
+                <input type="submit" value="Мне повезет!">
+                </center>
+            <p>Сервисы Google доступны на разных языках: 
+                <select class="lang">
                 <option value="BR">Беларуская</option>
                 <option value="RU">Русская</option>
-               </select></p>
+               </select>
+            </p>
         </main>
         <footer>
-            <p>Беларусь</p>
-            <ul>
-                <li>Реклама</li>
-                <li>Для бизнеса</li>
-                <li>Все о Google</li>
-                <li>Как работает Google Поиск</li>
-                <li>Конфиденциальность</li>
-                <li>Условия</li>
-                <li>Настройки</li>
-            </ul>
+            <span class="belarus">Беларусь</span>
+            <div class="footer">
+                <ul>
+                <li><a href=#>Реклама</a></li>
+                <li><a href=#>Для бизнеса</a></li>
+                <li><a href=#>Все о Google</a></li>
+                <li><a href=#>Как работает Google Поиск</a></li>
+                <li><a href=#>Конфиденциальность</a></li>
+                <li><a href=#>Условия</a></li>
+                <li><a href=#>Настройки</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
     </html>
